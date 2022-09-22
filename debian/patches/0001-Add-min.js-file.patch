@@ -1,0 +1,23 @@
+From: =?utf-8?q?Bastien_Roucari=C3=A8s?= <rouca@debian.org>
+Date: Sun, 3 Oct 2021 11:55:31 +0000
+Subject: Add min.js file
+
+Forwarded: not-needed
+---
+ package.json | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/package.json b/package.json
+index 5b4736d..135dcd4 100644
+--- a/package.json
++++ b/package.json
+@@ -4,7 +4,8 @@
+   "description": "Efficient implementation of Levenshtein algorithm  with locale-specific collator support.",
+   "main": "levenshtein.js",
+   "files": [
+-    "levenshtein.js"
++    "levenshtein.js",
++    "levenshtein.min.js"
+   ],
+   "scripts": {
+     "build": "grunt build",

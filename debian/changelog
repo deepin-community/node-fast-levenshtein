@@ -1,0 +1,43 @@
+node-fast-levenshtein (2.0.6+ds-3) unstable; urgency=medium
+
+  * Team upload
+  * Include min.js files
+  * Improve description
+  * MA: foreign
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 03 Oct 2021 12:09:41 +0000
+
+node-fast-levenshtein (2.0.6+ds-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Use dh-sequence-nodejs
+  * Add build dependency to node-lodash (Closes: #978294)
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 27 Dec 2020 09:11:35 +0100
+
+node-fast-levenshtein (2.0.6+ds-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * Add upstream/metadata
+  * Update copyright
+  * Exclude minified files from import
+  * New upstream version 2.0.6+ds
+  * Enable upstream test using mocha and chai
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 07 Mar 2020 12:12:40 +0100
+
+node-fast-levenshtein (2.0.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #840406)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 11 Oct 2016 15:33:58 +0530
